@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrinho 2026 - Agro Forte & Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Cabeçalho Principal -->
+    <header>
+        <div class="logo">Agrinho 2026</div>
+        <nav>
+            <a href="#tema">O Tema</a>
+            <a href="#defensivos">Defensivos Ecológicos</a>
+            <a href="#simulador">Simulador Verde</a>
+        </nav>
+    </header>
+
+    <!-- Banner Principal -->
+    <section id="hero">
+        <h1>Agro Forte, Futuro Sustentável</h1>
+        <p>O equilíbrio perfeito entre a alta produção agrícola e a preservação do meio ambiente.</p>
+    </section>
+
+    <!-- Seção do Tema -->
+    <section id="tema" class="container">
+        <h2>Equilíbrio na Prática</h2>
+        <p>Produzir alimentos em larga escala sem esgotar os recursos naturais é o maior desafio do século. O agro forte protege o solo, a água e a biodiversidade utilizando a tecnologia a favor da vida.</p>
+    </section>
+
+    <!-- Seção de Defensivos Ecológicos -->
+    <section id="defensivos" class="bg-light">
+        <div class="container">
+            <h2>Defensivos Ecológicos (Bioinsumos)</h2>
+            <p>São soluções naturais feitas a partir de microrganismos, plantas ou minerais para combater pragas sem poluir.</p>
+            <div class="grid">
+                <div class="card">
+                    <h3>Biocontroladores</h3>
+                    <p>Uso de fungos e bactérias do bem que atacam apenas os insetos que destroem a plantação.</p>
+                </div>
+                <div class="card">
+                    <h3>Extratos Vegetais</h3>
+                    <p>Inseticidas naturais feitos à base de plantas como o óleo de neem, repelindo pragas naturalmente.</p>
+                </div>
+                <div class="card">
+                    <h3>Armadilhas de Feromônio</h3>
+                    <p>Atraem os insetos específicos para longe da plantação sem aplicar nenhum produto químico no ar.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Simulador Interativo com JavaScript -->
+    <section id="simulador" class="container">
+        <h2>Simulador de Impacto Ambiental</h2>
+        <p>Escolha o tipo de manejo e veja o resultado no equilíbrio do seu ecossistema:</p>
+        
+        <div class="botoes-simulador">
+            <button onclick="simular('quimico')">Uso 100% Químico</button>
+            <button onclick="simular('ecologico')">Uso de Bioinsumos</button>
+        </div>
+
+        <div id="resultado" class="resultado-box">
+            Clique em um dos botões acima para ver o impacto na sua fazenda.
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2026 Projeto Concurso Agrinho. Desenvolvido para um futuro mais verde.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

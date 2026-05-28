@@ -1,0 +1,127 @@
+/* Configurações Gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    padding: 60px 20px;
+    max-width: 1100px;
+    margin: auto;
+    text-align: center;
+}
+
+.bg-light {
+    background-color: #f4f9f4;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #1e4620;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    color: #8bd993;
+}
+
+/* Banner Hero */
+#hero {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://unsplash.com') no-repeat center center/cover;
+    height: 60vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+#hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+/* Cards em Grid */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    border-top: 5px solid #2e7d32;
+}
+
+.card h3 {
+    color: #2e7d32;
+    margin-bottom: 15px;
+}
+
+/* Simulador Interativo */
+.botoes-simulador {
+    margin: 30px 0;
+}
+
+button {
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #1b5e20;
+}
+
+.resultado-box {
+    background-color: #eee;
+    padding: 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Rodapé */
+footer {
+    background-color: #112211;
+    color: #aaa;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+}
